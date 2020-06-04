@@ -3,7 +3,7 @@ files:
 - name: selective_logging.py
   visible: true
   placeholders:
-  - offset: 990
+  - offset: 1544
     length: 15
     placeholder_text: specify name of logger
     initial_state:
@@ -13,7 +13,7 @@ files:
     possible_answer: '''mortgage.rate'''
     selected: true
     status: Solved
-  - offset: 1032
+  - offset: 1586
     length: 19
     placeholder_text: specify this loggers severity level
     initial_state:

@@ -1,3 +1,12 @@
+"""
+In our previous examples, we logged messages with different severity levels using helper functions such as
+logger.debug() or logger.warning(). This is the easiest way to log messages.
+
+If you need to dynamically change the log level (for example, escalate a warning to an error),
+then you can use the Logger "log()" method which takes the level as the first argument.
+
+In this task, replace the helper logging functions with the equivalent calls using Logger "log()".
+"""
 from __future__ import print_function
 import math
 import logging

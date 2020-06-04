@@ -1,3 +1,13 @@
+"""
+When you can organize logging into a hierarchy, you can easily change the logging level at any point in this structure.
+This is a powerful way as narrowing your output to certain modules or subsystems.
+
+You can change the level in this structure by obtaining the logger instance at that level and
+calling the "setLevel" method with the desired log level.
+
+In this task, obtain a reference to the "mortgage.rate" logger instance and set its level to DEBUG.
+When we run this program, we will see all messages DEBUG level or higher for this logger.
+"""
 from __future__ import print_function
 import math
 import logging

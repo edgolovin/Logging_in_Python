@@ -1,3 +1,25 @@
+"""
+The logging module provides five logging levels.
+The levels allow you to control what messages are included in the output stream.
+Five levels is usually good for most applications,
+as having more levels just leads to confusion about which level to use.
+
+Each level is known by a constant (in all caps) and has a numeric value.
+The value comes into play when setting a log level on a logger.
+Only messages at the logger's current logging level or greater is output.
+
+LEVEL NAME         | FUNCTION                | VALUE
+===================+=========================+==========
+CRITICAL           | critical()              | 50
+ERROR              | error()                 | 40
+WARNING            | warning() or warn()     | 30
+INFO               | info()                  | 20
+DEBUG              | debug()                 | 10
+
+(1) Change the "Calling mortgage calculator" call to log with an INFO level.
+
+(2) Then log a WARNING level message when the years is greater than 50.
+"""
 from __future__ import print_function
 import math
 import logging

@@ -24,7 +24,7 @@ files:
 - name: replacing_print.py
   visible: true
   placeholders:
-  - offset: 100
+  - offset: 671
     length: 13
     placeholder_text: print
     initial_state:
@@ -34,7 +34,7 @@ files:
     possible_answer: logging.debug
     selected: true
     status: Solved
-  - offset: 218
+  - offset: 789
     length: 13
     placeholder_text: print
     initial_state:
@@ -44,7 +44,7 @@ files:
     possible_answer: logging.debug
     selected: true
     status: Solved
-  - offset: 341
+  - offset: 912
     length: 13
     placeholder_text: print
     initial_state:
@@ -54,7 +54,7 @@ files:
     possible_answer: logging.debug
     selected: true
     status: Solved
-  - offset: 463
+  - offset: 1034
     length: 13
     placeholder_text: print
     initial_state:
@@ -64,7 +64,7 @@ files:
     possible_answer: logging.debug
     selected: true
     status: Solved
-  - offset: 606
+  - offset: 1177
     length: 13
     placeholder_text: print
     initial_state:
@@ -74,7 +74,7 @@ files:
     possible_answer: logging.debug
     selected: true
     status: Solved
-  - offset: 660
+  - offset: 1231
     length: 13
     placeholder_text: print
     initial_state:

@@ -3,7 +3,7 @@ files:
 - name: log_method.py
   visible: true
   placeholders:
-  - offset: 140
+  - offset: 616
     length: 26
     placeholder_text: logger.debug(
     initial_state:
@@ -13,7 +13,7 @@ files:
     possible_answer: logger.log(logging.DEBUG,
     selected: true
     status: Solved
-  - offset: 270
+  - offset: 746
     length: 26
     placeholder_text: logger.debug(
     initial_state:
@@ -23,7 +23,7 @@ files:
     possible_answer: logger.log(logging.DEBUG,
     selected: true
     status: Solved
-  - offset: 405
+  - offset: 881
     length: 25
     placeholder_text: logger.info(
     initial_state:
@@ -33,7 +33,7 @@ files:
     possible_answer: logger.log(logging.INFO,
     selected: true
     status: Solved
-  - offset: 489
+  - offset: 965
     length: 28
     placeholder_text: logger.warn(
     initial_state:
@@ -43,7 +43,7 @@ files:
     possible_answer: logger.log(logging.WARNING,
     selected: true
     status: Solved
-  - offset: 624
+  - offset: 1100
     length: 26
     placeholder_text: logger.debug(
     initial_state:
@@ -53,7 +53,7 @@ files:
     possible_answer: logger.log(logging.DEBUG,
     selected: true
     status: Solved
-  - offset: 779
+  - offset: 1255
     length: 26
     placeholder_text: logger.debug(
     initial_state:
@@ -63,7 +63,7 @@ files:
     possible_answer: logger.log(logging.DEBUG,
     selected: true
     status: Solved
-  - offset: 845
+  - offset: 1321
     length: 26
     placeholder_text: logger.debug(
     initial_state:

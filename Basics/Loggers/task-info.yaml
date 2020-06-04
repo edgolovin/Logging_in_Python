@@ -3,7 +3,7 @@ files:
 - name: loggers.py
   visible: true
   placeholders:
-  - offset: 140
+  - offset: 868
     length: 6
     placeholder_text: logging
     initial_state:
@@ -13,7 +13,7 @@ files:
     possible_answer: logger
     selected: true
     status: Solved
-  - offset: 257
+  - offset: 985
     length: 6
     placeholder_text: logging
     initial_state:
@@ -23,7 +23,7 @@ files:
     possible_answer: logger
     selected: true
     status: Solved
-  - offset: 379
+  - offset: 1107
     length: 6
     placeholder_text: logging
     initial_state:
@@ -33,7 +33,7 @@ files:
     possible_answer: logger
     selected: true
     status: Solved
-  - offset: 450
+  - offset: 1178
     length: 6
     placeholder_text: logging
     initial_state:
@@ -43,7 +43,7 @@ files:
     possible_answer: logger
     selected: true
     status: Solved
-  - offset: 572
+  - offset: 1300
     length: 6
     placeholder_text: logging
     initial_state:
@@ -53,7 +53,7 @@ files:
     possible_answer: logger
     selected: true
     status: Solved
-  - offset: 714
+  - offset: 1442
     length: 6
     placeholder_text: logging
     initial_state:
@@ -63,7 +63,7 @@ files:
     possible_answer: logger
     selected: true
     status: Solved
-  - offset: 767
+  - offset: 1495
     length: 6
     placeholder_text: logging
     initial_state:

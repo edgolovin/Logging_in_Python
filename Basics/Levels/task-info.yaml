@@ -3,7 +3,7 @@ files:
 - name: levels.py
   visible: true
   placeholders:
-  - offset: 349
+  - offset: 1334
     length: 4
     placeholder_text: debug
     initial_state:
@@ -13,7 +13,7 @@ files:
     possible_answer: info
     selected: true
     status: Solved
-  - offset: 413
+  - offset: 1398
     length: 30
     placeholder_text: write_a_warning_message_to_logging
     initial_state:

@@ -3,7 +3,7 @@ files:
 - name: log_output.py
   visible: true
   placeholders:
-  - offset: 776
+  - offset: 1684
     length: 19
     placeholder_text: set default logging level
     initial_state:

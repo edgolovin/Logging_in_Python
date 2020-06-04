@@ -1,3 +1,14 @@
+"""
+The following code is typical of how many people start debugging their programs using the "print" function.
+
+The problem with using "print" to output debugging information, is it does not work well in larger programs.
+The debug output interferes with application output and you typically end up commenting out or
+removing all this extra code when you are not debugging.
+
+The standard logging module provides an easy way to separate application output from debug output.
+
+In this task, replace the highlighted "print" function calls with calls to "logging.debug".
+"""
 from __future__ import print_function
 import math
 import logging

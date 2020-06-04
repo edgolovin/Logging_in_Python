@@ -1,3 +1,18 @@
+"""
+The previous tasks have been logging messages through helper functions provided in the logging library and
+using the root Logger.
+
+Typically you will get local Logger objects for each module and call logging functions on that object.
+This is done by calling "logging.getLogger()" which returns a Logger object for a given name.
+You should never directly create instances of a Logger object.
+
+Calling "logging.getLogger()" with no arguments, will return the root Logger.
+
+In this task, we have created a module scoped "logger" instance with the name "mortgage".
+Replace the logging calls with references to this instance.
+
+After you execute this code, you should notice the name "mortgage" is now included in the output.
+"""
 from __future__ import print_function
 import math
 import logging

@@ -3,7 +3,7 @@ files:
 - name: multiple_loggers.py
   visible: true
   placeholders:
-  - offset: 140
+  - offset: 1182
     length: 43
     placeholder_text: create_a_new_logger_instance
     initial_state:

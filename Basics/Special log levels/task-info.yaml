@@ -3,7 +3,7 @@ files:
 - name: special_levels.py
   visible: true
   placeholders:
-  - offset: 885
+  - offset: 1758
     length: 14
     placeholder_text: logging.DEBUG
     initial_state:

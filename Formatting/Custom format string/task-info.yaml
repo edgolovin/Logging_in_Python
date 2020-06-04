@@ -1,5 +1,26 @@
 type: edu
 files:
+- name: tests.py
+  visible: false
+  text: |+
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_answer_placeholders():
+        placeholders = get_answer_placeholders()
+        placeholder = placeholders[0].replace('"', "'")
+        if placeholder == "'%(asctime)s %(levelname)s %(message)s'":
+            passed()
+        else:
+            failed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_answer_placeholders()
+
+
+  learner_created: false
 - name: custom_format_string.py
   visible: true
   placeholders:
@@ -46,27 +67,6 @@ files:
                             format=insert custom format string)
         payment = get_monthly_payment(100000, 80)
         print('Monthly payment is %f' % payment)
-  learner_created: false
-- name: tests.py
-  visible: false
-  text: |+
-    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
-
-
-    def test_answer_placeholders():
-        placeholders = get_answer_placeholders()
-        placeholder = placeholders[0].replace('"', "'")
-        if placeholder == "'%(asctime)s %(levelname)s %(message)s'":
-            passed()
-        else:
-            failed()
-
-
-    if __name__ == '__main__':
-        run_common_tests()
-        test_answer_placeholders()
-
-
   learner_created: false
 status: Unchecked
 record: -1
